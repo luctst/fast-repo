@@ -1,0 +1,50 @@
+{
+	"type": "module",
+	"name": "fast-repo",
+	"version": "1.0.0",
+	"description": "Create and configure github repository in seconds",
+	"main": "lib/index.js",
+	"author": "luctst",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://www.github.com/luctst/fast-repo"
+	},
+	"bugs": {
+		"url": "https://www.github.com/luctst/fast-repo/issues"
+	},
+	"homepage": "https://www.github.com/luctst/fast-repo",
+	"engines": {
+		"node": ">= 10.0.0"
+	},
+	"eslintIgnore": [
+		"lib/build/"
+	],
+	"ava": {
+		"cache": true
+	},
+	"keywords": [],
+	"scripts": {
+		"test": "ava --verbose ./test/*.js",
+		"test:watch": "ava --watch --verbose --fail-fast ./test/*.js",
+		"lint": "npx eslint --cache './lib/**/*.js'",
+		"lint:watch": "esw -w --clear --color --cache './lib/**/*.js'",
+		"lint:fix": "npx eslint --fix './lib/**/*.js'",
+		"style": "prettier -c './lib/**/*.js'",
+		"style:fix": "prettier --c --write './lib/**/*.js'"
+	},
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"eslint": "^7.30.0",
+		"eslint-config-airbnb-base": "^14.2.1",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-import": "^2.23.4",
+		"eslint-plugin-prettier": "^3.4.0",
+		"eslint-watch": "^7.0.0",
+		"prettier": "^2.3.2"
+	},
+	"dependencies": {
+		"chalk": "^4.1.1",
+		"meow": "^10.0.1"
+	}
+}
