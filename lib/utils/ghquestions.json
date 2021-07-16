@@ -1,0 +1,42 @@
+[
+    {
+        "type": "confirm",
+        "name": "private",
+        "message": "This repository is private ?"
+    },
+    {
+        "type": "confirm",
+        "name": "has_issues",
+        "message": "Your repo has issues panel ?"
+    },
+    {
+        "type": "confirm",
+        "name": "has_projects",
+        "message": "Your repo has projects panel ?"
+    },
+    {
+        "type": "confirm",
+        "name": "has_wiki",
+        "message": "Your repo has wiki ?"
+    },
+    {
+        "type": "confirm",
+        "name": "auto_init",
+        "message": "Create a minimalist README ?"
+    },
+    {
+        "type": "confirm",
+        "name": "delete_branch_on_merge",
+        "message": "Whether to delete head branches when pull requests are merged"
+    },
+    {
+        "type": "confirm",
+        "name": "is_template",
+        "message": "Whether this repository acts as a template that can be used to generate new repositories."
+    },
+    {
+        "type": "confirm",
+        "name": "withLuctstCli",
+        "message": "Create folder structure with tools like (estlint, prettier, travis) with luctst-cli package ?"
+    }
+]
