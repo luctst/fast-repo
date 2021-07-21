@@ -33,10 +33,5 @@
         "type": "confirm",
         "name": "is_template",
         "message": "Whether this repository acts as a template that can be used to generate new repositories."
-    },
-    {
-        "type": "confirm",
-        "name": "withLuctstCli",
-        "message": "Create folder structure with tools like (estlint, prettier, travis) with luctst-cli package ?"
     }
 ]
