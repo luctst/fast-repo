@@ -1,9 +1,14 @@
 {
 	"type": "module",
 	"name": "fast-repo",
-	"version": "1.0.0",
+	"version": "0.0.0",
 	"description": "Create and configure github repository in seconds",
 	"main": "lib/index.js",
+	"exports": "./lib/main.js",
+	"bin": "lib/index.js",
+	"files": [
+		"./lib/**/*"
+	],
 	"author": "luctst",
 	"license": "MIT",
 	"repository": {
@@ -23,7 +28,24 @@
 	"ava": {
 		"cache": true
 	},
-	"keywords": [],
+	"keywords": [
+		"cli",
+		"bin",
+		"util",
+		"nodejs",
+		"command",
+		"line",
+		"github",
+		"repository",
+		"create",
+		"delete",
+		"config",
+		"javascript",
+		"flags",
+		"input",
+		"output",
+		"console"
+	],
 	"scripts": {
 		"test": "ava --verbose ./test/*.js",
 		"test:watch": "ava --watch --verbose --fail-fast ./test/*.js",
