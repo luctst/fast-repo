@@ -1,16 +1,19 @@
 {
 	"type": "module",
 	"name": "fast-repo",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Create and configure github repository in seconds",
-	"main": "lib/index.js",
-	"exports": "./lib/main.js",
-	"bin": "lib/index.js",
+	"main": "lib/bin.js",
+	"exports": "./lib/bin.js",
+	"bin": "lib/bin.js",
 	"files": [
-		"./lib/**/*"
+		"lib/**/*"
 	],
 	"author": "luctst",
 	"license": "MIT",
+	"np": {
+		"yarn": false
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://www.github.com/luctst/fast-repo"
