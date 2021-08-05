@@ -1,7 +1,7 @@
 {
 	"type": "module",
 	"name": "fast-repo",
-	"version": "1.2.2",
+	"version": "1.2.3",
 	"description": "Create and configure github repository in seconds",
 	"main": "lib/bin.js",
 	"exports": "./lib/bin.js",
